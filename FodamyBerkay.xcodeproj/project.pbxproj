@@ -15,6 +15,9 @@
 		6AA5F6D027D62A15004B6DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */; };
 		6AA5F6DB27D62A15004B6DE7 /* FodamyBerkayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6DA27D62A15004B6DE7 /* FodamyBerkayTests.swift */; };
 		6AA5F6E627D62A15004B6DE7 /* FodamyBerkayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */; };
+		8C058DEE8758F2086D44487C /* Pods_FodamyBerkay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */; };
+		B8A1A7E1F553B4110729B91B /* Pods_FodamyBerkay_FodamyBerkayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */; };
+		D298E992ABB18364B6AA49AF /* Pods_FodamyBerkayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313DD8A9DF56E4F88F11EBE8 /* Pods-FodamyBerkay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay.release.xcconfig"; sourceTree = "<group>"; };
+		333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkay_FodamyBerkayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C71AE0C011BEA4C261766F7 /* Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5682A3A0F33818D4C0526D87 /* Pods-FodamyBerkayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkayTests.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkayTests/Pods-FodamyBerkayTests.release.xcconfig"; sourceTree = "<group>"; };
 		6AA5F6C027D62A11004B6DE7 /* FodamyBerkay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FodamyBerkay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA5F6C527D62A11004B6DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		6AA5F6E127D62A15004B6DE7 /* FodamyBerkayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FodamyBerkayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodamyBerkayUITests.swift; sourceTree = "<group>"; };
 		6AA5F6E727D62A15004B6DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8443905E2023664C02FCB8D9 /* Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8F4942F0285EBCC02E8DAE /* Pods-FodamyBerkay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay.debug.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC0BF02CEE08240A9A01DEA /* Pods-FodamyBerkayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkayTests.debug.xcconfig"; path = "Target Support Files/Pods-FodamyBerkayTests/Pods-FodamyBerkayTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C058DEE8758F2086D44487C /* Pods_FodamyBerkay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D298E992ABB18364B6AA49AF /* Pods_FodamyBerkayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A1A7E1F553B4110729B91B /* Pods_FodamyBerkay_FodamyBerkayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				6AA5F6D927D62A15004B6DE7 /* FodamyBerkayTests */,
 				6AA5F6E427D62A15004B6DE7 /* FodamyBerkayUITests */,
 				6AA5F6C127D62A11004B6DE7 /* Products */,
+				72DED1D4B549005493A66FAA /* Pods */,
+				F0C07192B042BD750614DB69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = FodamyBerkayUITests;
 			sourceTree = "<group>";
 		};
+		72DED1D4B549005493A66FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F4942F0285EBCC02E8DAE /* Pods-FodamyBerkay.debug.xcconfig */,
+				313DD8A9DF56E4F88F11EBE8 /* Pods-FodamyBerkay.release.xcconfig */,
+				3C71AE0C011BEA4C261766F7 /* Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig */,
+				8443905E2023664C02FCB8D9 /* Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig */,
+				EBC0BF02CEE08240A9A01DEA /* Pods-FodamyBerkayTests.debug.xcconfig */,
+				5682A3A0F33818D4C0526D87 /* Pods-FodamyBerkayTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0C07192B042BD750614DB69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */,
+				333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */,
+				8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA5F6EA27D62A15004B6DE7 /* Build configuration list for PBXNativeTarget "FodamyBerkay" */;
 			buildPhases = (
+				05F8AF53A54855C59319CC8A /* [CP] Check Pods Manifest.lock */,
 				6AA5F6BC27D62A11004B6DE7 /* Sources */,
 				6AA5F6BD27D62A11004B6DE7 /* Frameworks */,
 				6AA5F6BE27D62A11004B6DE7 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA5F6ED27D62A15004B6DE7 /* Build configuration list for PBXNativeTarget "FodamyBerkayTests" */;
 			buildPhases = (
+				A42D95E6A908495E194E5BCD /* [CP] Check Pods Manifest.lock */,
 				6AA5F6D227D62A15004B6DE7 /* Sources */,
 				6AA5F6D327D62A15004B6DE7 /* Frameworks */,
 				6AA5F6D427D62A15004B6DE7 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA5F6F027D62A15004B6DE7 /* Build configuration list for PBXNativeTarget "FodamyBerkayUITests" */;
 			buildPhases = (
+				5872B74420DD9C6E3B3F4190 /* [CP] Check Pods Manifest.lock */,
 				6AA5F6DD27D62A15004B6DE7 /* Sources */,
 				6AA5F6DE27D62A15004B6DE7 /* Frameworks */,
 				6AA5F6DF27D62A15004B6DE7 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F8AF53A54855C59319CC8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FodamyBerkay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5872B74420DD9C6E3B3F4190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FodamyBerkay-FodamyBerkayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42D95E6A908495E194E5BCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FodamyBerkayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AA5F6BC27D62A11004B6DE7 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		6AA5F6EB27D62A15004B6DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8F4942F0285EBCC02E8DAE /* Pods-FodamyBerkay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		6AA5F6EC27D62A15004B6DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313DD8A9DF56E4F88F11EBE8 /* Pods-FodamyBerkay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		6AA5F6EE27D62A15004B6DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC0BF02CEE08240A9A01DEA /* Pods-FodamyBerkayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		6AA5F6EF27D62A15004B6DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5682A3A0F33818D4C0526D87 /* Pods-FodamyBerkayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		6AA5F6F127D62A15004B6DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C71AE0C011BEA4C261766F7 /* Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		6AA5F6F227D62A15004B6DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8443905E2023664C02FCB8D9 /* Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
