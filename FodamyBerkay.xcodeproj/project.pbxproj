@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A13E28C27D6417700AC93F0 /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28B27D6417700AC93F0 /* DataProvider.framework */; };
+		6A13E28D27D6417700AC93F0 /* DataProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28B27D6417700AC93F0 /* DataProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A13E29027D6417E00AC93F0 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28F27D6417E00AC93F0 /* UIComponents.framework */; };
+		6A13E29127D6417E00AC93F0 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28F27D6417E00AC93F0 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A13E29327D6418600AC93F0 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E29227D6418600AC93F0 /* Utilities.framework */; };
+		6A13E29427D6418600AC93F0 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E29227D6418600AC93F0 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */; };
 		6AA5F6C827D62A11004B6DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C727D62A11004B6DE7 /* ViewController.swift */; };
 		6AA5F6CD27D62A15004B6DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */; };
@@ -35,11 +41,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A13E28E27D6417700AC93F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A13E29127D6417E00AC93F0 /* UIComponents.framework in Embed Frameworks */,
+				6A13E29427D6418600AC93F0 /* Utilities.framework in Embed Frameworks */,
+				6A13E28D27D6417700AC93F0 /* DataProvider.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		313DD8A9DF56E4F88F11EBE8 /* Pods-FodamyBerkay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay.release.xcconfig"; sourceTree = "<group>"; };
 		333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkay_FodamyBerkayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C71AE0C011BEA4C261766F7 /* Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5682A3A0F33818D4C0526D87 /* Pods-FodamyBerkayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkayTests.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkayTests/Pods-FodamyBerkayTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A13E28827D6411F00AC93F0 /* FodamyBerkay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FodamyBerkay-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A13E28B27D6417700AC93F0 /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A13E28F27D6417E00AC93F0 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A13E29227D6418600AC93F0 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C027D62A11004B6DE7 /* FodamyBerkay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FodamyBerkay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA5F6C727D62A11004B6DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +91,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C058DEE8758F2086D44487C /* Pods_FodamyBerkay.framework in Frameworks */,
+				6A13E29027D6417E00AC93F0 /* UIComponents.framework in Frameworks */,
+				6A13E28C27D6417700AC93F0 /* DataProvider.framework in Frameworks */,
+				6A13E29327D6418600AC93F0 /* Utilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +116,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A13E28627D640CD00AC93F0 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E28727D640F200AC93F0 /* BridgingHeader */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		6A13E28727D640F200AC93F0 /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E28827D6411F00AC93F0 /* FodamyBerkay-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
 		6AA5F6B727D62A11004B6DE7 = {
 			isa = PBXGroup;
 			children = (
+				6A13E28627D640CD00AC93F0 /* Configurations */,
 				6AA5F6C227D62A11004B6DE7 /* FodamyBerkay */,
 				6AA5F6D927D62A15004B6DE7 /* FodamyBerkayTests */,
 				6AA5F6E427D62A15004B6DE7 /* FodamyBerkayUITests */,
@@ -155,6 +201,9 @@
 		F0C07192B042BD750614DB69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A13E29227D6418600AC93F0 /* Utilities.framework */,
+				6A13E28F27D6417E00AC93F0 /* UIComponents.framework */,
+				6A13E28B27D6417700AC93F0 /* DataProvider.framework */,
 				AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */,
 				333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */,
 				8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */,
@@ -174,6 +223,7 @@
 				6AA5F6BC27D62A11004B6DE7 /* Sources */,
 				6AA5F6BD27D62A11004B6DE7 /* Frameworks */,
 				6AA5F6BE27D62A11004B6DE7 /* Resources */,
+				6A13E28E27D6417700AC93F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +283,7 @@
 				TargetAttributes = {
 					6AA5F6BF27D62A11004B6DE7 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					6AA5F6D527D62A15004B6DE7 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -552,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
 				INFOPLIST_FILE = FodamyBerkay/Info.plist;
@@ -561,6 +613,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.FodamyBerkay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,6 +626,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
 				INFOPLIST_FILE = FodamyBerkay/Info.plist;
@@ -581,6 +636,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.FodamyBerkay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
