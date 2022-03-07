@@ -224,6 +224,7 @@
 				6AA5F6BD27D62A11004B6DE7 /* Frameworks */,
 				6AA5F6BE27D62A11004B6DE7 /* Resources */,
 				6A13E28E27D6417700AC93F0 /* Embed Frameworks */,
+				A9793F42A6C3F9F921FAD9FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +262,7 @@
 				6AA5F6DD27D62A15004B6DE7 /* Sources */,
 				6AA5F6DE27D62A15004B6DE7 /* Frameworks */,
 				6AA5F6DF27D62A15004B6DE7 /* Resources */,
+				FB75A45DBC9A3AD6C585ADF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -424,6 +426,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9793F42A6C3F9F921FAD9FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay/Pods-FodamyBerkay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB75A45DBC9A3AD6C585ADF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
