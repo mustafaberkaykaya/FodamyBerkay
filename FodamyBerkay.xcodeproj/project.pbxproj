@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		6A13E29127D6417E00AC93F0 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28F27D6417E00AC93F0 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A13E29327D6418600AC93F0 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E29227D6418600AC93F0 /* Utilities.framework */; };
 		6A13E29427D6418600AC93F0 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E29227D6418600AC93F0 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A13E2A027D648FE00AC93F0 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E29F27D648FE00AC93F0 /* PushTransition.swift */; };
+		6A13E2A227D6493200AC93F0 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A127D6493200AC93F0 /* ModalTransition.swift */; };
+		6A13E2A427D6496800AC93F0 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A327D6496800AC93F0 /* Transition.swift */; };
+		6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A527D649B000AC93F0 /* PlaceOnWindowTransition.swift */; };
+		6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A727D649ED00AC93F0 /* Router.swift */; };
+		6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A927D64A0A00AC93F0 /* Animator.swift */; };
+		6A13E2B027D64DF600AC93F0 /* WalkthroughRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */; };
+		6A13E2B127D64DF600AC93F0 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */; };
+		6A13E2B227D64DF600AC93F0 /* WalkthroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */; };
+		6A13E2B727D64EBD00AC93F0 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */; };
+		6A13E2B827D64EBD00AC93F0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */; };
+		6A13E2B927D64EBD00AC93F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */; };
+		6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */; };
+		6A13E2BF27D7422100AC93F0 /* WalkthroughRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */; };
 		6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */; };
 		6AA5F6C827D62A11004B6DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C727D62A11004B6DE7 /* ViewController.swift */; };
 		6AA5F6CD27D62A15004B6DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */; };
@@ -66,6 +80,20 @@
 		6A13E28B27D6417700AC93F0 /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A13E28F27D6417E00AC93F0 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A13E29227D6418600AC93F0 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A13E29F27D648FE00AC93F0 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		6A13E2A127D6493200AC93F0 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		6A13E2A327D6496800AC93F0 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		6A13E2A527D649B000AC93F0 /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
+		6A13E2A727D649ED00AC93F0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6A13E2A927D64A0A00AC93F0 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughRouter.swift; sourceTree = "<group>"; };
+		6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewModel.swift; sourceTree = "<group>"; };
+		6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRouter.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseRouter.swift; sourceTree = "<group>"; };
+		6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseViewModel.swift; sourceTree = "<group>"; };
+		6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseViewController.swift; sourceTree = "<group>"; };
+		6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughRoute.swift; sourceTree = "<group>"; };
 		6AA5F6C027D62A11004B6DE7 /* FodamyBerkay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FodamyBerkay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA5F6C727D62A11004B6DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,9 +160,79 @@
 			path = BridgingHeader;
 			sourceTree = "<group>";
 		};
+		6A13E29927D6483A00AC93F0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E29C27D6487300AC93F0 /* Core */,
+				6A13E29B27D6485D00AC93F0 /* Transitions */,
+				6A13E29A27D6484800AC93F0 /* Routers */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		6A13E29A27D6484800AC93F0 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		6A13E29B27D6485D00AC93F0 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E29F27D648FE00AC93F0 /* PushTransition.swift */,
+				6A13E2A127D6493200AC93F0 /* ModalTransition.swift */,
+				6A13E2A327D6496800AC93F0 /* Transition.swift */,
+				6A13E2A527D649B000AC93F0 /* PlaceOnWindowTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		6A13E29C27D6487300AC93F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E2A727D649ED00AC93F0 /* Router.swift */,
+				6A13E2A927D64A0A00AC93F0 /* Animator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6A13E2AB27D64CA500AC93F0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E2B327D64E5D00AC93F0 /* Base */,
+				6A13E2AC27D64CAC00AC93F0 /* Walkthrough */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6A13E2AC27D64CAC00AC93F0 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */,
+				6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */,
+				6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */,
+				6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		6A13E2B327D64E5D00AC93F0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */,
+				6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */,
+				6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		6AA5F6B727D62A11004B6DE7 = {
 			isa = PBXGroup;
 			children = (
+				6A13E2AB27D64CA500AC93F0 /* Scenes */,
+				6A13E29927D6483A00AC93F0 /* Routing */,
 				6A13E28627D640CD00AC93F0 /* Configurations */,
 				6AA5F6C227D62A11004B6DE7 /* FodamyBerkay */,
 				6AA5F6D927D62A15004B6DE7 /* FodamyBerkayTests */,
@@ -469,8 +567,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A13E2BF27D7422100AC93F0 /* WalkthroughRoute.swift in Sources */,
+				6A13E2A427D6496800AC93F0 /* Transition.swift in Sources */,
+				6A13E2B227D64DF600AC93F0 /* WalkthroughViewModel.swift in Sources */,
+				6A13E2A227D6493200AC93F0 /* ModalTransition.swift in Sources */,
 				6AA5F6C827D62A11004B6DE7 /* ViewController.swift in Sources */,
+				6A13E2B027D64DF600AC93F0 /* WalkthroughRouter.swift in Sources */,
+				6A13E2B927D64EBD00AC93F0 /* BaseViewController.swift in Sources */,
+				6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */,
+				6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */,
+				6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */,
+				6A13E2B827D64EBD00AC93F0 /* BaseViewModel.swift in Sources */,
+				6A13E2B727D64EBD00AC93F0 /* BaseRouter.swift in Sources */,
+				6A13E2A027D648FE00AC93F0 /* PushTransition.swift in Sources */,
 				6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */,
+				6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */,
+				6A13E2B127D64DF600AC93F0 /* WalkthroughViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
