@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WalkthroughViewController.swift
 //  FodamyBerkay
 //
 //  Created by Mustafa Berkay Kaya on 7.03.2022.
@@ -7,12 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class WalkthroughViewController: BaseViewController<WalkthroughViewModel> {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
     }
-
 }
