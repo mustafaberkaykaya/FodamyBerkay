@@ -32,6 +32,27 @@ public enum Asset {
     public static let appZircon = ColorAsset(name: "appZircon")
   }
   public enum Icons {
+    public static let icEditorsPick = ImageAsset(name: "ic_editors_pick")
+    public static let icMainCourse = ImageAsset(name: "ic_main_course")
+    public static let icMeat = ImageAsset(name: "ic_meat")
+    public static let icPastry = ImageAsset(name: "ic_pastry")
+    public static let icBack = ImageAsset(name: "ic_back")
+    public static let icClock = ImageAsset(name: "ic_clock")
+    public static let icClose = ImageAsset(name: "ic_close")
+    public static let icComment = ImageAsset(name: "ic_comment")
+    public static let icHeart = ImageAsset(name: "ic_heart")
+    public static let icHome = ImageAsset(name: "ic_home")
+    public static let icLogout = ImageAsset(name: "ic_logout")
+    public static let icMail = ImageAsset(name: "ic_mail")
+    public static let icMenu = ImageAsset(name: "ic_menu")
+    public static let icMore = ImageAsset(name: "ic_more")
+    public static let icPassword = ImageAsset(name: "ic_password")
+    public static let icRestaurant = ImageAsset(name: "ic_restaurant")
+    public static let icSend = ImageAsset(name: "ic_send")
+    public static let icShare = ImageAsset(name: "ic_share")
+    public static let icUser = ImageAsset(name: "ic_user")
+    public static let icUsers = ImageAsset(name: "ic_users")
+    public static let icWarning = ImageAsset(name: "ic_warning")
   }
   public enum Images {
     public static let cc = ImageAsset(name: "cc")
