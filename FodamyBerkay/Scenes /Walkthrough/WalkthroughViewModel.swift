@@ -8,8 +8,6 @@
 protocol WalkthroughViewDataSource {
     func numberOfItemsAt(section: Int) -> Int
     func cellItemAt(indexPath: IndexPath) -> WalkthroughCellProtocol
-    
-    var currentPage: Int { get }
 }
 
 protocol WalkthroughViewEventSource {}
@@ -17,7 +15,6 @@ protocol WalkthroughViewEventSource {}
 protocol WalkthroughViewProtocol: WalkthroughViewDataSource, WalkthroughViewEventSource {}
 
 final class WalkthroughViewModel: BaseViewModel<WalkthroughRouter>, WalkthroughViewProtocol {
-    var currentPage = 0
     
     func numberOfItemsAt(section: Int) -> Int {
         return cellItems.count

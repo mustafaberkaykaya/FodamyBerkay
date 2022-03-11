@@ -139,8 +139,7 @@ extension WalkthroughViewController: UICollectionViewDelegateFlowLayout {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let width = scrollView.frame.width
-        viewModel.currentPage = Int(scrollView.contentOffset.x / width)
-        pageControl.currentPage = viewModel.currentPage
+        pageControl.currentPage = Int(scrollView.contentOffset.x / width)
         
         if pageControl.currentPage == viewModel.numberOfItemsAt(section: 0) - 1 {
             nextButton.setTitle(L10n.WalkThrough.startButton, for: .normal)
