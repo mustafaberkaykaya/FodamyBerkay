@@ -93,7 +93,7 @@ extension WalkthroughViewController {
     @objc
     private func nextButtonTapped() {
         if pageControl.currentPage == viewModel.numberOfItemsAt(section: 0) - 1 {
-           print("geç yeni ekrana")
+            viewModel.didFinishWalkthroughScene()
         } else {
             pageControl.currentPage += 1
             let indexPath = IndexPath(item: pageControl.currentPage, section: 0)

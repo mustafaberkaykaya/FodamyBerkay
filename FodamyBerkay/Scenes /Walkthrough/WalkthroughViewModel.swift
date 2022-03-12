@@ -41,3 +41,10 @@ final class WalkthroughViewModel: BaseViewModel<WalkthroughRouter>, WalkthroughV
                                                             titleText: L10n.WalkThrough._1Title,
                                                             descriptionText: L10n.WalkThrough._1Description)]
 }
+
+extension WalkthroughViewModel {
+    func didFinishWalkthroughScene() {
+        DefaultsKey.isWalkThroughCompleted.value = true
+        router.pushHome()
+    }
+}

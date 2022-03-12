@@ -9,7 +9,7 @@ import UIKit
 
 final class AppRouter: Router, AppRouter.Routes {
     
-    typealias Routes = WalkthroughRoute
+    typealias Routes = WalkthroughRoute & HomeRoute
     
     static let shared = AppRouter()
     
@@ -25,6 +25,10 @@ final class AppRouter: Router, AppRouter.Routes {
     }
     
     func startApp() {
-        AppRouter.shared.pushWalkthrough()
+        if DefaultsKey.isWalkThroughCompleted.value == true {
+            AppRouter.shared.pushHome()
+        } else {
+            AppRouter.shared.placeOnWindowWalkThrough()
+        }
     }
 }
