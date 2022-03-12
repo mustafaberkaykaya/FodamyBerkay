@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A07E0FA27DB35E2002ED268 /* WalkthroughRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E0F627DB35E2002ED268 /* WalkthroughRoute.swift */; };
+		6A07E0FD27DB36C7002ED268 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E0FC27DB36C7002ED268 /* BaseViewController.swift */; };
+		6A07E0FF27DB36CC002ED268 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E0FE27DB36CC002ED268 /* BaseViewModel.swift */; };
+		6A07E10427DB391B002ED268 /* WalkthroughRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E10127DB391B002ED268 /* WalkthroughRouter.swift */; };
+		6A07E10527DB391B002ED268 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E10227DB391B002ED268 /* WalkthroughViewController.swift */; };
+		6A07E10627DB391B002ED268 /* WalkthroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E10327DB391B002ED268 /* WalkthroughViewModel.swift */; };
 		6A13E28C27D6417700AC93F0 /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28B27D6417700AC93F0 /* DataProvider.framework */; };
 		6A13E28D27D6417700AC93F0 /* DataProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28B27D6417700AC93F0 /* DataProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A13E29027D6417E00AC93F0 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13E28F27D6417E00AC93F0 /* UIComponents.framework */; };
@@ -19,16 +25,8 @@
 		6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A527D649B000AC93F0 /* PlaceOnWindowTransition.swift */; };
 		6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A727D649ED00AC93F0 /* Router.swift */; };
 		6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A927D64A0A00AC93F0 /* Animator.swift */; };
-		6A13E2B027D64DF600AC93F0 /* WalkthroughRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */; };
-		6A13E2B127D64DF600AC93F0 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */; };
-		6A13E2B227D64DF600AC93F0 /* WalkthroughViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */; };
-		6A13E2B727D64EBD00AC93F0 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */; };
-		6A13E2B827D64EBD00AC93F0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */; };
-		6A13E2B927D64EBD00AC93F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */; };
 		6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */; };
-		6A13E2BF27D7422100AC93F0 /* WalkthroughRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */; };
 		6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */; };
-		6AA5F6C827D62A11004B6DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C727D62A11004B6DE7 /* ViewController.swift */; };
 		6AA5F6CD27D62A15004B6DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */; };
 		6AA5F6D027D62A15004B6DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */; };
 		6AA5F6DB27D62A15004B6DE7 /* FodamyBerkayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6DA27D62A15004B6DE7 /* FodamyBerkayTests.swift */; };
@@ -76,6 +74,12 @@
 		333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkay_FodamyBerkayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C71AE0C011BEA4C261766F7 /* Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5682A3A0F33818D4C0526D87 /* Pods-FodamyBerkayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkayTests.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkayTests/Pods-FodamyBerkayTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A07E0F627DB35E2002ED268 /* WalkthroughRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughRoute.swift; sourceTree = "<group>"; };
+		6A07E0FC27DB36C7002ED268 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6A07E0FE27DB36CC002ED268 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6A07E10127DB391B002ED268 /* WalkthroughRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughRouter.swift; sourceTree = "<group>"; };
+		6A07E10227DB391B002ED268 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		6A07E10327DB391B002ED268 /* WalkthroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewModel.swift; sourceTree = "<group>"; };
 		6A13E28827D6411F00AC93F0 /* FodamyBerkay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FodamyBerkay-Bridging-Header.h"; sourceTree = "<group>"; };
 		6A13E28B27D6417700AC93F0 /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A13E28F27D6417E00AC93F0 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,17 +90,9 @@
 		6A13E2A527D649B000AC93F0 /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
 		6A13E2A727D649ED00AC93F0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		6A13E2A927D64A0A00AC93F0 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
-		6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughRouter.swift; sourceTree = "<group>"; };
-		6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
-		6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewModel.swift; sourceTree = "<group>"; };
-		6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRouter.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseRouter.swift; sourceTree = "<group>"; };
-		6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseViewModel.swift; sourceTree = "<group>"; };
-		6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../../NoteBerkayMvvm/NoteBerkayMvvm/Scenes/Base/BaseViewController.swift; sourceTree = "<group>"; };
 		6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughRoute.swift; sourceTree = "<group>"; };
 		6AA5F6C027D62A11004B6DE7 /* FodamyBerkay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FodamyBerkay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AA5F6C727D62A11004B6DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AA5F6CF27D62A15004B6DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA5F6D127D62A15004B6DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,6 +140,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A07E0F127DB35E2002ED268 /* Scenes  */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E0FB27DB3610002ED268 /* Base */,
+				6A07E0F227DB35E2002ED268 /* Walkthrough */,
+			);
+			path = "Scenes ";
+			sourceTree = "<group>";
+		};
+		6A07E0F227DB35E2002ED268 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E0F627DB35E2002ED268 /* WalkthroughRoute.swift */,
+				6A07E10127DB391B002ED268 /* WalkthroughRouter.swift */,
+				6A07E10227DB391B002ED268 /* WalkthroughViewController.swift */,
+				6A07E10327DB391B002ED268 /* WalkthroughViewModel.swift */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		6A07E0FB27DB3610002ED268 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E0FC27DB36C7002ED268 /* BaseViewController.swift */,
+				6A07E0FE27DB36CC002ED268 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		6A13E28627D640CD00AC93F0 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,46 +223,13 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		6A13E2AB27D64CA500AC93F0 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				6A13E2B327D64E5D00AC93F0 /* Base */,
-				6A13E2AC27D64CAC00AC93F0 /* Walkthrough */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		6A13E2AC27D64CAC00AC93F0 /* Walkthrough */ = {
-			isa = PBXGroup;
-			children = (
-				6A13E2AD27D64DF600AC93F0 /* WalkthroughRouter.swift */,
-				6A13E2AE27D64DF600AC93F0 /* WalkthroughViewController.swift */,
-				6A13E2AF27D64DF600AC93F0 /* WalkthroughViewModel.swift */,
-				6A13E2BE27D7422100AC93F0 /* WalkthroughRoute.swift */,
-			);
-			path = Walkthrough;
-			sourceTree = "<group>";
-		};
-		6A13E2B327D64E5D00AC93F0 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				6A13E2B427D64EBD00AC93F0 /* BaseRouter.swift */,
-				6A13E2B627D64EBD00AC93F0 /* BaseViewController.swift */,
-				6A13E2B527D64EBD00AC93F0 /* BaseViewModel.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		6AA5F6B727D62A11004B6DE7 = {
 			isa = PBXGroup;
 			children = (
-				6A13E29927D6483A00AC93F0 /* Routing */,
-				6A13E28627D640CD00AC93F0 /* Configurations */,
 				6AA5F6C227D62A11004B6DE7 /* FodamyBerkay */,
 				6AA5F6D927D62A15004B6DE7 /* FodamyBerkayTests */,
 				6AA5F6E427D62A15004B6DE7 /* FodamyBerkayUITests */,
 				6AA5F6C127D62A11004B6DE7 /* Products */,
-				6A13E2AB27D64CA500AC93F0 /* Scenes */,
 				72DED1D4B549005493A66FAA /* Pods */,
 				F0C07192B042BD750614DB69 /* Frameworks */,
 			);
@@ -257,7 +249,9 @@
 			isa = PBXGroup;
 			children = (
 				6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */,
-				6AA5F6C727D62A11004B6DE7 /* ViewController.swift */,
+				6A13E28627D640CD00AC93F0 /* Configurations */,
+				6A13E29927D6483A00AC93F0 /* Routing */,
+				6A07E0F127DB35E2002ED268 /* Scenes  */,
 				6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */,
 				6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */,
 				6AA5F6D127D62A15004B6DE7 /* Info.plist */,
@@ -567,22 +561,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A13E2BF27D7422100AC93F0 /* WalkthroughRoute.swift in Sources */,
+				6A07E0FD27DB36C7002ED268 /* BaseViewController.swift in Sources */,
+				6A07E10627DB391B002ED268 /* WalkthroughViewModel.swift in Sources */,
 				6A13E2A427D6496800AC93F0 /* Transition.swift in Sources */,
-				6A13E2B227D64DF600AC93F0 /* WalkthroughViewModel.swift in Sources */,
 				6A13E2A227D6493200AC93F0 /* ModalTransition.swift in Sources */,
-				6AA5F6C827D62A11004B6DE7 /* ViewController.swift in Sources */,
-				6A13E2B027D64DF600AC93F0 /* WalkthroughRouter.swift in Sources */,
-				6A13E2B927D64EBD00AC93F0 /* BaseViewController.swift in Sources */,
+				6A07E10427DB391B002ED268 /* WalkthroughRouter.swift in Sources */,
+				6A07E0FF27DB36CC002ED268 /* BaseViewModel.swift in Sources */,
+				6A07E10527DB391B002ED268 /* WalkthroughViewController.swift in Sources */,
 				6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */,
 				6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */,
 				6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */,
-				6A13E2B827D64EBD00AC93F0 /* BaseViewModel.swift in Sources */,
-				6A13E2B727D64EBD00AC93F0 /* BaseRouter.swift in Sources */,
+				6A07E0FA27DB35E2002ED268 /* WalkthroughRoute.swift in Sources */,
 				6A13E2A027D648FE00AC93F0 /* PushTransition.swift in Sources */,
 				6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */,
 				6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */,
-				6A13E2B127D64DF600AC93F0 /* WalkthroughViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,7 +754,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.FodamyBerkay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FodamyBerkay/Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -786,7 +778,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.FodamyBerkay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FodamyBerkay/Configurations/BridgingHeader/FodamyBerkay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

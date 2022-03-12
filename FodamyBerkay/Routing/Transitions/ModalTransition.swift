@@ -60,4 +60,3 @@ extension ModalTransition: UIViewControllerTransitioningDelegate {
         return animator
     }
 }
-

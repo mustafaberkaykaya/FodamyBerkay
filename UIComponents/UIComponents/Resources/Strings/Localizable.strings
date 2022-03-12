@@ -5,4 +5,18 @@
   Created by Mustafa Berkay Kaya on 9.03.2022.
   
 */
+// MARK: - WalkThrough
+"WalkThrough.1Title" = "Welcome to Fodamy Network!";
+"WalkThrough.1Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
+"WalkThrough.2Title" = "Finding recipes were not that easy.";
+"WalkThrough.2Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
+"WalkThrough.3Title" = "Add new recipe.";
+"WalkThrough.3Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
+"WalkThrough.4Title" = "Share recipes with others.";
+"WalkThrough.4Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
+"WalkThrough.NextButton" = "Next";
+"WalkThrough.StartButton" = "Start";
+
+
+
 

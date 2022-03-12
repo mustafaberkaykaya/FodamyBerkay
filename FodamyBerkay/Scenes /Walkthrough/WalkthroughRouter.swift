@@ -2,7 +2,7 @@
 //  WalkthroughRouter.swift
 //  FodamyBerkay
 //
-//  Created by Mustafa Berkay Kaya on 7.03.2022.
+//  Created by Mustafa Berkay Kaya on 11.03.2022.
 //
 
 final class WalkthroughRouter: Router {}
