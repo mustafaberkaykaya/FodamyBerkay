@@ -18,6 +18,7 @@ $Kingfisher = pod 'Kingfisher', '~> 6.3.1'
 $IQKeyboardManagerSwift = pod 'IQKeyboardManagerSwift’, ‘~> 6.5'
 $KeychainSwift = pod 'KeychainSwift', '~> 20.0'
 $SwiftValidator = pod 'SwiftValidator', :git => 'https://github.com/mobillium/SwiftValidator.git'
+$MobilliumUserDefaults = pod 'MobilliumUserDefaults', '~> 2.0'
 
 
 
@@ -44,6 +45,7 @@ target 'FodamyBerkay' do
   $IQKeyboardManagerSwift
   $KeychainSwift
   $SwiftValidator
+  $MobilliumUserDefaults
 
 
   target 'FodamyBerkayTests' do
@@ -77,6 +79,7 @@ target 'Utilities' do
   project 'Utilities/Utilities.xcodeproj'
   
   # Pods for Utilities
+  $MobilliumUserDefaults
   
   target 'UtilitiesTests' do
     inherit! :search_paths
