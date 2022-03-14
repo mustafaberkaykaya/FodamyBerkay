@@ -45,6 +45,6 @@ final class WalkthroughViewModel: BaseViewModel<WalkthroughRouter>, WalkthroughV
 extension WalkthroughViewModel {
     func didFinishWalkthroughScene() {
         DefaultsKey.isWalkThroughCompleted.value = true
-        router.pushHome()
+        router.placeOnWindowMainTabBar()
     }
 }

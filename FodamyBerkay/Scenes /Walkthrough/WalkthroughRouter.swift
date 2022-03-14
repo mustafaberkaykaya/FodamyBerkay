@@ -6,5 +6,5 @@
 //
 
 final class WalkthroughRouter: Router, WalkthroughRouter.Routes {
-    typealias Routes = HomeRoute
+    typealias Routes = MainTabBarRoute
 }
