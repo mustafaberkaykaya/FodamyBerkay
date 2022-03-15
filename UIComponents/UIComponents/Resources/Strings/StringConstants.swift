@@ -11,6 +11,13 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 public enum L10n {
 
+  public enum Home {
+    /// Editor's Choice
+    public static let segmentControlType1 = L10n.tr("Localizable", "Home.SegmentControlType1")
+    /// Recently Added
+    public static let segmentControlType2 = L10n.tr("Localizable", "Home.SegmentControlType2")
+  }
+
   public enum WalkThrough {
     /// Fodamy is the best place to find your favorite recipes in all around the word.
     public static let _1Description = L10n.tr("Localizable", "WalkThrough.1Description")

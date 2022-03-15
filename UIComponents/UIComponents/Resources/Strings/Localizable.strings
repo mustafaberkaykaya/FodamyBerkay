@@ -5,6 +5,7 @@
   Created by Mustafa Berkay Kaya on 9.03.2022.
   
 */
+
 // MARK: - WalkThrough
 "WalkThrough.1Title" = "Welcome to Fodamy Network!";
 "WalkThrough.1Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
@@ -16,6 +17,15 @@
 "WalkThrough.4Description" = "Fodamy is the best place to find your favorite recipes in all around the word.";
 "WalkThrough.NextButton" = "Next";
 "WalkThrough.StartButton" = "Start";
+
+// MARK: - Home
+"Home.SegmentControlType1" = "Editor's Choice";
+"Home.SegmentControlType2" = "Recently Added";
+
+
+
+
+
 
 
 
