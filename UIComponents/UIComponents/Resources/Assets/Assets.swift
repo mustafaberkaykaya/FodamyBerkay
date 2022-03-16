@@ -55,6 +55,7 @@ public enum Asset {
     public static let icWarning = ImageAsset(name: "ic_warning")
   }
   public enum Images {
+    public static let imgEditorsPick = ImageAsset(name: "img_editors_pick")
     public static let imgLogoFodamy = ImageAsset(name: "img_logo_fodamy")
     public static let imgWalkthrough1 = ImageAsset(name: "img_walkthrough_1")
     public static let imgWalkthrough2 = ImageAsset(name: "img_walkthrough_2")
