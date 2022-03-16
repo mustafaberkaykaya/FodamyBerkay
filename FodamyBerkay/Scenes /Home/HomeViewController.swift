@@ -37,6 +37,7 @@ extension HomeViewController {
         addNavigationBarLogo()
         addSegmentView()
         addPageViewController()
+        addTabBarItem()
     }
    
     private func addNavigationBarLogo() {
@@ -62,6 +63,16 @@ extension HomeViewController {
         pageViewController.view.topToBottom(of: customSegmentView)
         pageViewController.view.leadingToSuperview()
         pageViewController.view.trailingToSuperview()
+    }
+    
+    private func addTabBarItem() {
+        navigationController?.tabBarItem.image = .icHome
+        let rightBarItem = UIBarButtonItem(
+            image: .icLogout.withAlignmentRectInsets(.init(top: 0, left: 0, bottom: -2, right: 0)),
+            style: .done,
+            target: nil,
+            action: nil)
+        navigationItem.setRightBarButton(rightBarItem, animated: true)
     }
 }
 // MARK: - ConfigureContents
