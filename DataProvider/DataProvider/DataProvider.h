@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Alamofire/Alamofire-umbrella.h>
 
 //! Project version number for DataProvider.
 FOUNDATION_EXPORT double DataProviderVersionNumber;
