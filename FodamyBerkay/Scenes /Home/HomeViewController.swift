@@ -63,6 +63,7 @@ extension HomeViewController {
         pageViewController.view.topToBottom(of: customSegmentView)
         pageViewController.view.leadingToSuperview()
         pageViewController.view.trailingToSuperview()
+        pageViewController.view.bottomToSuperview()
     }
     
     private func addTabBarItem() {
