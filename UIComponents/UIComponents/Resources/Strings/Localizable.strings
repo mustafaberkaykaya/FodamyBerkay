@@ -22,6 +22,9 @@
 "Home.SegmentControlType1" = "Editor's Choice";
 "Home.SegmentControlType2" = "Recently Added";
 
+// MARK: - UserInfo
+"UserInfo.following" = "Following";
+"UserInfo.follow" = "Follow";
 
 
 

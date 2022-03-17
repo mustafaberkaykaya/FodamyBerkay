@@ -18,6 +18,13 @@ public enum L10n {
     public static let segmentControlType2 = L10n.tr("Localizable", "Home.SegmentControlType2")
   }
 
+  public enum UserInfo {
+    /// Follow
+    public static let follow = L10n.tr("Localizable", "UserInfo.follow")
+    /// Following
+    public static let following = L10n.tr("Localizable", "UserInfo.following")
+  }
+
   public enum WalkThrough {
     /// Fodamy is the best place to find your favorite recipes in all around the word.
     public static let _1Description = L10n.tr("Localizable", "WalkThrough.1Description")
