@@ -6,6 +6,10 @@ import UIKit
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public extension UIImage {
 
+  static var imgEditorsPick: UIImage {
+      return Asset.Images.imgEditorsPick.image
+  }
+
   static var imgLogoFodamy: UIImage {
       return Asset.Images.imgLogoFodamy.image
   }

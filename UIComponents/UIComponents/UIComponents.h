@@ -5,7 +5,8 @@
 //  Created by Mustafa Berkay Kaya on 7.03.2022.
 //
 
-#import <Foundation/Foundation.h>
+#import <Utilities/Utilities.h>
+#import <DataProvider/DataProvider.h>
 #import <UIKit/UIKit.h>
 #import <MobilliumBuilders/MobilliumBuilders-Swift.h>
 #import <TinyConstraints/TinyConstraints-Swift.h>
