@@ -11,6 +11,11 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 public enum L10n {
 
+  public enum FavoriteCell {
+    /// See All
+    public static let button = L10n.tr("Localizable", "FavoriteCell.button")
+  }
+
   public enum Home {
     /// Editor's Choice
     public static let segmentControlType1 = L10n.tr("Localizable", "Home.SegmentControlType1")
