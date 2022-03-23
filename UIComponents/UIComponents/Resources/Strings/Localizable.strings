@@ -26,6 +26,9 @@
 "UserInfo.following" = "Following";
 "UserInfo.follow" = "Follow";
 
+// MARK: - FavoriteCell
+"FavoriteCell.button" = "See All";
+
 
 
 
