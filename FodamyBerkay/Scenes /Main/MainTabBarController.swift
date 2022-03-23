@@ -11,7 +11,8 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         tabBar.tintColor = .appRed
         let homeViewController = createHomeViewController()
-        viewControllers = [homeViewController]
+        let favoritesViewController = createFavoritesViewController()
+        viewControllers = [homeViewController, favoritesViewController]
     }
 
     private func createHomeViewController() -> UINavigationController {
@@ -21,5 +22,15 @@ class MainTabBarController: UITabBarController {
         let navigationController = MainNavigationController(rootViewController: homeViewController)
         homeRouter.viewController = homeViewController
         return navigationController
+    }
+    
+    private func createFavoritesViewController() -> UINavigationController {
+        let favoritesRouter = FavoritesRouter()
+        let favoritesViewModel = FavoritesViewModel(router: favoritesRouter)
+        let favoritesViewController = FavoritesViewController(viewModel: favoritesViewModel)
+        let navController = MainNavigationController(rootViewController: favoritesViewController)
+        navController.tabBarItem.image = .icHeart
+        favoritesRouter.viewController = favoritesViewController
+        return navController
     }
 }

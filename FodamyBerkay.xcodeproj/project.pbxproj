@@ -45,6 +45,9 @@
 		6AA5F6D027D62A15004B6DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */; };
 		6AA5F6DB27D62A15004B6DE7 /* FodamyBerkayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6DA27D62A15004B6DE7 /* FodamyBerkayTests.swift */; };
 		6AA5F6E627D62A15004B6DE7 /* FodamyBerkayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */; };
+		6AFE7CB427EB2A8C003E13CC /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB127EB2A8C003E13CC /* FavoritesRouter.swift */; };
+		6AFE7CB527EB2A8C003E13CC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB227EB2A8C003E13CC /* FavoritesViewController.swift */; };
+		6AFE7CB627EB2A8C003E13CC /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB327EB2A8C003E13CC /* FavoritesViewModel.swift */; };
 		8C058DEE8758F2086D44487C /* Pods_FodamyBerkay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */; };
 		B8A1A7E1F553B4110729B91B /* Pods_FodamyBerkay_FodamyBerkayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333119A1E17B279AA33F57C2 /* Pods_FodamyBerkay_FodamyBerkayUITests.framework */; };
 		D298E992ABB18364B6AA49AF /* Pods_FodamyBerkayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */; };
@@ -130,6 +133,9 @@
 		6AA5F6E127D62A15004B6DE7 /* FodamyBerkayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FodamyBerkayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodamyBerkayUITests.swift; sourceTree = "<group>"; };
 		6AA5F6E727D62A15004B6DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFE7CB127EB2A8C003E13CC /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		6AFE7CB227EB2A8C003E13CC /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6AFE7CB327EB2A8C003E13CC /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		8443905E2023664C02FCB8D9 /* Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig"; path = "Target Support Files/Pods-FodamyBerkay-FodamyBerkayUITests/Pods-FodamyBerkay-FodamyBerkayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C02A5D0BEE76E62847F9927 /* Pods_FodamyBerkayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1149CA25CB64720BFDCC3B /* Pods_FodamyBerkay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FodamyBerkay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +177,7 @@
 		6A07E0F127DB35E2002ED268 /* Scenes  */ = {
 			isa = PBXGroup;
 			children = (
+				6AFE7CB027EB2A67003E13CC /* Favorites */,
 				6A07E14127E0CF02002ED268 /* Recipes */,
 				6A07E12E27DD674A002ED268 /* Main */,
 				6A07E11D27DD55B9002ED268 /* Home */,
@@ -349,6 +356,16 @@
 				6AA5F6E727D62A15004B6DE7 /* Info.plist */,
 			);
 			path = FodamyBerkayUITests;
+			sourceTree = "<group>";
+		};
+		6AFE7CB027EB2A67003E13CC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE7CB127EB2A8C003E13CC /* FavoritesRouter.swift */,
+				6AFE7CB227EB2A8C003E13CC /* FavoritesViewController.swift */,
+				6AFE7CB327EB2A8C003E13CC /* FavoritesViewModel.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 		72DED1D4B549005493A66FAA /* Pods */ = {
@@ -651,6 +668,7 @@
 				6A07E0FF27DB36CC002ED268 /* BaseViewModel.swift in Sources */,
 				6A07E10527DB391B002ED268 /* WalkthroughViewController.swift in Sources */,
 				6A07E12927DD6323002ED268 /* MainNavigationController.swift in Sources */,
+				6AFE7CB627EB2A8C003E13CC /* FavoritesViewModel.swift in Sources */,
 				6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */,
 				6A07E16827E205B5002ED268 /* ApiLogger.swift in Sources */,
 				6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */,
@@ -663,6 +681,8 @@
 				6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */,
 				6A07E12527DD56A3002ED268 /* HomeRoute.swift in Sources */,
 				6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */,
+				6AFE7CB527EB2A8C003E13CC /* FavoritesViewController.swift in Sources */,
+				6AFE7CB427EB2A8C003E13CC /* FavoritesRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
