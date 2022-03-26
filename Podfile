@@ -20,6 +20,7 @@ $KeychainSwift = pod 'KeychainSwift', '~> 20.0'
 $SwiftValidator = pod 'SwiftValidator', :git => 'https://github.com/mobillium/SwiftValidator.git'
 $MobilliumUserDefaults = pod 'MobilliumUserDefaults', '~> 2.0'
 $Segmentio = pod 'Segmentio', '~> 4.1'
+$SKPhotoBrowser = pod 'SKPhotoBrowser', '~> 7.0'
 
 
 
@@ -48,6 +49,7 @@ target 'FodamyBerkay' do
   $SwiftValidator
   $MobilliumUserDefaults
   $Segmentio
+  $SKPhotoBrowser
 
 
   target 'FodamyBerkayTests' do
@@ -102,6 +104,7 @@ target 'UIComponents' do
   $MobilliumBuilders
   $Kingfisher
   $Segmentio
+  $SKPhotoBrowser
   
   target 'UIComponentsTests' do
     inherit! :search_paths
