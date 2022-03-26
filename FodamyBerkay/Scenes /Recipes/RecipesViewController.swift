@@ -116,6 +116,10 @@ extension RecipesViewController: UICollectionViewDelegateFlowLayout {
                         minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 15
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        viewModel.didSelectRecipe(at: indexPath)
+    }
 
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
