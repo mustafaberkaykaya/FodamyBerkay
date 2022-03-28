@@ -72,6 +72,10 @@
 "ForgotPassword.email" = "E-Mail";
 "ForgotPassword.button" = "Forgot Password";
 
+// MARK: - UnfollowAlert
+"UnfollowAlert.unf" = "Unfollow";
+"UnfollowAlert.cancel" = "Cancel";
+
 
 
 
