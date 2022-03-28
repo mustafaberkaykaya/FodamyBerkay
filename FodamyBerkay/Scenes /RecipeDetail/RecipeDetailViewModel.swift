@@ -93,7 +93,7 @@ extension RecipeDetailViewModel {
     func likeButtonTapped() {
         guard keychain.get(Keychain.token) != nil else {
             router.pushLoginReminder(loginHandler: { [weak self] in
-               print("geçiş yapılıo")
+                self?.router.presentLogin()
             })
             return
         }
