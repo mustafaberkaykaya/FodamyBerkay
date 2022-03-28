@@ -21,6 +21,7 @@ $SwiftValidator = pod 'SwiftValidator', :git => 'https://github.com/mobillium/Sw
 $MobilliumUserDefaults = pod 'MobilliumUserDefaults', '~> 2.0'
 $Segmentio = pod 'Segmentio', '~> 4.1'
 $SKPhotoBrowser = pod 'SKPhotoBrowser', '~> 7.0'
+$SwiftValidator = pod 'SwiftValidator', :git => 'https://github.com/mobillium/SwiftValidator.git'
 
 
 
@@ -50,6 +51,7 @@ target 'FodamyBerkay' do
   $MobilliumUserDefaults
   $Segmentio
   $SKPhotoBrowser
+  $SwiftValidator
 
 
   target 'FodamyBerkayTests' do
