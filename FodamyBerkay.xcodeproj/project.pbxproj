@@ -50,6 +50,19 @@
 		6AA5F6D027D62A15004B6DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */; };
 		6AA5F6DB27D62A15004B6DE7 /* FodamyBerkayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6DA27D62A15004B6DE7 /* FodamyBerkayTests.swift */; };
 		6AA5F6E627D62A15004B6DE7 /* FodamyBerkayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */; };
+		6ADAEFC227F19A2700F4BA28 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFBF27F19A2700F4BA28 /* LoginRouter.swift */; };
+		6ADAEFC327F19A2700F4BA28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFC027F19A2700F4BA28 /* LoginViewController.swift */; };
+		6ADAEFC427F19A2700F4BA28 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFC127F19A2700F4BA28 /* LoginViewModel.swift */; };
+		6ADAEFC627F19A4400F4BA28 /* LoginRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFC527F19A4400F4BA28 /* LoginRoute.swift */; };
+		6ADAEFC827F19A9200F4BA28 /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFC727F19A9200F4BA28 /* TransparentNavigationController.swift */; };
+		6ADAEFD827F19FB300F4BA28 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFD527F19FB300F4BA28 /* SignUpRouter.swift */; };
+		6ADAEFD927F19FB300F4BA28 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFD627F19FB300F4BA28 /* SignUpViewController.swift */; };
+		6ADAEFDA27F19FB300F4BA28 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFD727F19FB300F4BA28 /* SignUpViewModel.swift */; };
+		6ADAEFDC27F19FC600F4BA28 /* SignUpRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDB27F19FC600F4BA28 /* SignUpRoute.swift */; };
+		6ADAEFE027F19FDE00F4BA28 /* ForgotPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDD27F19FDE00F4BA28 /* ForgotPasswordRouter.swift */; };
+		6ADAEFE127F19FDE00F4BA28 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDE27F19FDE00F4BA28 /* ForgotPasswordViewController.swift */; };
+		6ADAEFE227F19FDE00F4BA28 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDF27F19FDE00F4BA28 /* ForgotPasswordViewModel.swift */; };
+		6ADAEFE427F19FF000F4BA28 /* ForgotPasswordRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */; };
 		6AF5D81227EC62CF0056D024 /* RecipeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */; };
 		6AF5D81327EC62CF0056D024 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */; };
 		6AF5D81427EC62CF0056D024 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */; };
@@ -149,6 +162,19 @@
 		6AA5F6E127D62A15004B6DE7 /* FodamyBerkayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FodamyBerkayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodamyBerkayUITests.swift; sourceTree = "<group>"; };
 		6AA5F6E727D62A15004B6DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADAEFBF27F19A2700F4BA28 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		6ADAEFC027F19A2700F4BA28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6ADAEFC127F19A2700F4BA28 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6ADAEFC527F19A4400F4BA28 /* LoginRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRoute.swift; sourceTree = "<group>"; };
+		6ADAEFC727F19A9200F4BA28 /* TransparentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		6ADAEFD527F19FB300F4BA28 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		6ADAEFD627F19FB300F4BA28 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6ADAEFD727F19FB300F4BA28 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		6ADAEFDB27F19FC600F4BA28 /* SignUpRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRoute.swift; sourceTree = "<group>"; };
+		6ADAEFDD27F19FDE00F4BA28 /* ForgotPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRouter.swift; sourceTree = "<group>"; };
+		6ADAEFDE27F19FDE00F4BA28 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		6ADAEFDF27F19FDE00F4BA28 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRoute.swift; sourceTree = "<group>"; };
 		6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRouter.swift; sourceTree = "<group>"; };
 		6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
@@ -199,6 +225,7 @@
 		6A07E0F127DB35E2002ED268 /* Scenes  */ = {
 			isa = PBXGroup;
 			children = (
+				6ADAEFBB27F199EC00F4BA28 /* Auth */,
 				6A60C80627EF5BA000DFC292 /* LoginReminder */,
 				6AF5D80E27EC62680056D024 /* RecipeDetail */,
 				6AFE7CB027EB2A67003E13CC /* Favorites */,
@@ -228,6 +255,7 @@
 				6A07E12827DD6323002ED268 /* MainNavigationController.swift */,
 				6A07E0FC27DB36C7002ED268 /* BaseViewController.swift */,
 				6A07E0FE27DB36CC002ED268 /* BaseViewModel.swift */,
+				6ADAEFC727F19A9200F4BA28 /* TransparentNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -401,6 +429,49 @@
 				6AA5F6E727D62A15004B6DE7 /* Info.plist */,
 			);
 			path = FodamyBerkayUITests;
+			sourceTree = "<group>";
+		};
+		6ADAEFBB27F199EC00F4BA28 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6ADAEFBE27F19A0E00F4BA28 /* ForgotPassword */,
+				6ADAEFBD27F19A0000F4BA28 /* SignUp */,
+				6ADAEFBC27F199FB00F4BA28 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6ADAEFBC27F199FB00F4BA28 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6ADAEFBF27F19A2700F4BA28 /* LoginRouter.swift */,
+				6ADAEFC027F19A2700F4BA28 /* LoginViewController.swift */,
+				6ADAEFC127F19A2700F4BA28 /* LoginViewModel.swift */,
+				6ADAEFC527F19A4400F4BA28 /* LoginRoute.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6ADAEFBD27F19A0000F4BA28 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6ADAEFD527F19FB300F4BA28 /* SignUpRouter.swift */,
+				6ADAEFD627F19FB300F4BA28 /* SignUpViewController.swift */,
+				6ADAEFD727F19FB300F4BA28 /* SignUpViewModel.swift */,
+				6ADAEFDB27F19FC600F4BA28 /* SignUpRoute.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6ADAEFBE27F19A0E00F4BA28 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6ADAEFDD27F19FDE00F4BA28 /* ForgotPasswordRouter.swift */,
+				6ADAEFDE27F19FDE00F4BA28 /* ForgotPasswordViewController.swift */,
+				6ADAEFDF27F19FDE00F4BA28 /* ForgotPasswordViewModel.swift */,
+				6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		6AF5D80E27EC62680056D024 /* RecipeDetail */ = {
@@ -724,18 +795,23 @@
 				6A60C80B27EF5C4000DFC292 /* LoginReminderViewController.swift in Sources */,
 				6A07E12D27DD66FB002ED268 /* MainTabBarController.swift in Sources */,
 				6AF5D81627EC62E40056D024 /* RecipeDetailRoute.swift in Sources */,
+				6ADAEFC227F19A2700F4BA28 /* LoginRouter.swift in Sources */,
+				6ADAEFC427F19A2700F4BA28 /* LoginViewModel.swift in Sources */,
 				6AF5D84F27EE16E10056D024 /* RecipeDetailHeaderView.swift in Sources */,
 				6A07E10627DB391B002ED268 /* WalkthroughViewModel.swift in Sources */,
 				6A07E14627E0CF18002ED268 /* RecipesViewController.swift in Sources */,
 				6A07E14527E0CF18002ED268 /* RecipesRouter.swift in Sources */,
 				6A60C80C27EF5C4000DFC292 /* LoginReminderViewModel.swift in Sources */,
 				6AF5D81327EC62CF0056D024 /* RecipeDetailViewController.swift in Sources */,
+				6ADAEFC627F19A4400F4BA28 /* LoginRoute.swift in Sources */,
+				6ADAEFE427F19FF000F4BA28 /* ForgotPasswordRoute.swift in Sources */,
 				6A13E2A427D6496800AC93F0 /* Transition.swift in Sources */,
 				6A13E2A227D6493200AC93F0 /* ModalTransition.swift in Sources */,
 				6A07E12127DD564A002ED268 /* HomeRouter.swift in Sources */,
 				6A07E16C27E2061F002ED268 /* DataProvider.swift in Sources */,
 				6A07E10427DB391B002ED268 /* WalkthroughRouter.swift in Sources */,
 				6A07E14927E0CF47002ED268 /* RecipesRoute.swift in Sources */,
+				6ADAEFDA27F19FB300F4BA28 /* SignUpViewModel.swift in Sources */,
 				6A07E0FF27DB36CC002ED268 /* BaseViewModel.swift in Sources */,
 				6A07E10527DB391B002ED268 /* WalkthroughViewController.swift in Sources */,
 				6A07E12927DD6323002ED268 /* MainNavigationController.swift in Sources */,
@@ -748,16 +824,24 @@
 				6A07E12227DD564A002ED268 /* HomeViewController.swift in Sources */,
 				6A60C81327EFC9BD00DFC292 /* PhotoDelegate.swift in Sources */,
 				6A07E0FA27DB35E2002ED268 /* WalkthroughRoute.swift in Sources */,
+				6ADAEFC327F19A2700F4BA28 /* LoginViewController.swift in Sources */,
+				6ADAEFC827F19A9200F4BA28 /* TransparentNavigationController.swift in Sources */,
+				6ADAEFD927F19FB300F4BA28 /* SignUpViewController.swift in Sources */,
+				6ADAEFD827F19FB300F4BA28 /* SignUpRouter.swift in Sources */,
 				6A13E2A027D648FE00AC93F0 /* PushTransition.swift in Sources */,
 				6A07E16A27E20600002ED268 /* APIRequestInterceptor.swift in Sources */,
 				6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */,
+				6ADAEFE227F19FDE00F4BA28 /* ForgotPasswordViewModel.swift in Sources */,
+				6ADAEFDC27F19FC600F4BA28 /* SignUpRoute.swift in Sources */,
 				6A07E12527DD56A3002ED268 /* HomeRoute.swift in Sources */,
 				6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */,
 				6AF5D84D27EE16000056D024 /* SKPhotoBrowserRoute.swift in Sources */,
 				6AFE7CB527EB2A8C003E13CC /* FavoritesViewController.swift in Sources */,
+				6ADAEFE127F19FDE00F4BA28 /* ForgotPasswordViewController.swift in Sources */,
 				6A60C80A27EF5C4000DFC292 /* LoginReminderRouter.swift in Sources */,
 				6AFE7CB427EB2A8C003E13CC /* FavoritesRouter.swift in Sources */,
 				6AF5D81227EC62CF0056D024 /* RecipeDetailRouter.swift in Sources */,
+				6ADAEFE027F19FDE00F4BA28 /* ForgotPasswordRouter.swift in Sources */,
 				6AF5D81427EC62CF0056D024 /* RecipeDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
