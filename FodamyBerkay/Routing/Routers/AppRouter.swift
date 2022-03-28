@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import SKPhotoBrowser
 
 final class AppRouter: Router, AppRouter.Routes {
     
-    typealias Routes = WalkthroughRoute & MainTabBarRoute
+    typealias Routes = WalkthroughRoute & MainTabBarRoute & SKPhotoBrowserRoute
     
     static let shared = AppRouter()
+    
+    func presentSKPhotoBrowser(with photos: [String], delegate: PhotoBrowserDelegate, initialPageIndex: Int = 0) {
+        guard let topVC = topViewController() else { return }
+        presentSKPhotoBrowser(with: photos, viewController: topVC, initialPageIndex: initialPageIndex, delegate: delegate)
+    }
     
     private func topViewController() -> UIViewController? {
         let keyWindow = UIApplication.shared.windows.first(where: { $0.isKeyWindow })

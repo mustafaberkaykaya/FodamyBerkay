@@ -40,11 +40,22 @@
 		6A13E2A827D649ED00AC93F0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A727D649ED00AC93F0 /* Router.swift */; };
 		6A13E2AA27D64A0A00AC93F0 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2A927D64A0A00AC93F0 /* Animator.swift */; };
 		6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */; };
+		6A60C80A27EF5C4000DFC292 /* LoginReminderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C80727EF5C4000DFC292 /* LoginReminderRouter.swift */; };
+		6A60C80B27EF5C4000DFC292 /* LoginReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C80827EF5C4000DFC292 /* LoginReminderViewController.swift */; };
+		6A60C80C27EF5C4000DFC292 /* LoginReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C80927EF5C4000DFC292 /* LoginReminderViewModel.swift */; };
+		6A60C80E27EF5C5700DFC292 /* LoginReminderRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C80D27EF5C5700DFC292 /* LoginReminderRoute.swift */; };
+		6A60C81327EFC9BD00DFC292 /* PhotoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C81227EFC9BD00DFC292 /* PhotoDelegate.swift */; };
 		6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */; };
 		6AA5F6CD27D62A15004B6DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */; };
 		6AA5F6D027D62A15004B6DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5F6CE27D62A15004B6DE7 /* LaunchScreen.storyboard */; };
 		6AA5F6DB27D62A15004B6DE7 /* FodamyBerkayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6DA27D62A15004B6DE7 /* FodamyBerkayTests.swift */; };
 		6AA5F6E627D62A15004B6DE7 /* FodamyBerkayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */; };
+		6AF5D81227EC62CF0056D024 /* RecipeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */; };
+		6AF5D81327EC62CF0056D024 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */; };
+		6AF5D81427EC62CF0056D024 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */; };
+		6AF5D81627EC62E40056D024 /* RecipeDetailRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81527EC62E40056D024 /* RecipeDetailRoute.swift */; };
+		6AF5D84D27EE16000056D024 /* SKPhotoBrowserRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D84C27EE16000056D024 /* SKPhotoBrowserRoute.swift */; };
+		6AF5D84F27EE16E10056D024 /* RecipeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D84E27EE16E10056D024 /* RecipeDetailHeaderView.swift */; };
 		6AFE7CB427EB2A8C003E13CC /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB127EB2A8C003E13CC /* FavoritesRouter.swift */; };
 		6AFE7CB527EB2A8C003E13CC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB227EB2A8C003E13CC /* FavoritesViewController.swift */; };
 		6AFE7CB627EB2A8C003E13CC /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CB327EB2A8C003E13CC /* FavoritesViewModel.swift */; };
@@ -122,6 +133,11 @@
 		6A13E2A727D649ED00AC93F0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		6A13E2A927D64A0A00AC93F0 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		6A60C80727EF5C4000DFC292 /* LoginReminderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReminderRouter.swift; sourceTree = "<group>"; };
+		6A60C80827EF5C4000DFC292 /* LoginReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReminderViewController.swift; sourceTree = "<group>"; };
+		6A60C80927EF5C4000DFC292 /* LoginReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReminderViewModel.swift; sourceTree = "<group>"; };
+		6A60C80D27EF5C5700DFC292 /* LoginReminderRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReminderRoute.swift; sourceTree = "<group>"; };
+		6A60C81227EFC9BD00DFC292 /* PhotoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDelegate.swift; sourceTree = "<group>"; };
 		6AA5F6C027D62A11004B6DE7 /* FodamyBerkay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FodamyBerkay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA5F6CC27D62A15004B6DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +149,12 @@
 		6AA5F6E127D62A15004B6DE7 /* FodamyBerkayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FodamyBerkayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA5F6E527D62A15004B6DE7 /* FodamyBerkayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FodamyBerkayUITests.swift; sourceTree = "<group>"; };
 		6AA5F6E727D62A15004B6DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRouter.swift; sourceTree = "<group>"; };
+		6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		6AF5D81527EC62E40056D024 /* RecipeDetailRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRoute.swift; sourceTree = "<group>"; };
+		6AF5D84C27EE16000056D024 /* SKPhotoBrowserRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKPhotoBrowserRoute.swift; sourceTree = "<group>"; };
+		6AF5D84E27EE16E10056D024 /* RecipeDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailHeaderView.swift; sourceTree = "<group>"; };
 		6AFE7CB127EB2A8C003E13CC /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
 		6AFE7CB227EB2A8C003E13CC /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		6AFE7CB327EB2A8C003E13CC /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
@@ -177,6 +199,8 @@
 		6A07E0F127DB35E2002ED268 /* Scenes  */ = {
 			isa = PBXGroup;
 			children = (
+				6A60C80627EF5BA000DFC292 /* LoginReminder */,
+				6AF5D80E27EC62680056D024 /* RecipeDetail */,
 				6AFE7CB027EB2A67003E13CC /* Favorites */,
 				6A07E14127E0CF02002ED268 /* Recipes */,
 				6A07E12E27DD674A002ED268 /* Main */,
@@ -279,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */,
+				6AF5D84C27EE16000056D024 /* SKPhotoBrowserRoute.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -301,6 +326,25 @@
 				6A13E2A927D64A0A00AC93F0 /* Animator.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		6A60C80627EF5BA000DFC292 /* LoginReminder */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C80727EF5C4000DFC292 /* LoginReminderRouter.swift */,
+				6A60C80827EF5C4000DFC292 /* LoginReminderViewController.swift */,
+				6A60C80927EF5C4000DFC292 /* LoginReminderViewModel.swift */,
+				6A60C80D27EF5C5700DFC292 /* LoginReminderRoute.swift */,
+			);
+			path = LoginReminder;
+			sourceTree = "<group>";
+		};
+		6A60C81127EFC90700DFC292 /* RecipeDetailHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5D84E27EE16E10056D024 /* RecipeDetailHeaderView.swift */,
+			);
+			path = RecipeDetailHeader;
 			sourceTree = "<group>";
 		};
 		6AA5F6B727D62A11004B6DE7 = {
@@ -328,6 +372,7 @@
 		6AA5F6C227D62A11004B6DE7 /* FodamyBerkay */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5D84B27EE15200056D024 /* Delegate */,
 				6A07E16627E203EE002ED268 /* DataProvider */,
 				6AA5F6C327D62A11004B6DE7 /* AppDelegate.swift */,
 				6A13E28627D640CD00AC93F0 /* Configurations */,
@@ -356,6 +401,26 @@
 				6AA5F6E727D62A15004B6DE7 /* Info.plist */,
 			);
 			path = FodamyBerkayUITests;
+			sourceTree = "<group>";
+		};
+		6AF5D80E27EC62680056D024 /* RecipeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C81127EFC90700DFC292 /* RecipeDetailHeader */,
+				6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */,
+				6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */,
+				6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */,
+				6AF5D81527EC62E40056D024 /* RecipeDetailRoute.swift */,
+			);
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		6AF5D84B27EE15200056D024 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C81227EFC9BD00DFC292 /* PhotoDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		6AFE7CB027EB2A67003E13CC /* Favorites */ = {
@@ -653,12 +718,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A07E14727E0CF18002ED268 /* RecipesViewModel.swift in Sources */,
+				6A60C80E27EF5C5700DFC292 /* LoginReminderRoute.swift in Sources */,
 				6A07E12327DD564A002ED268 /* HomeViewModel.swift in Sources */,
 				6A07E0FD27DB36C7002ED268 /* BaseViewController.swift in Sources */,
+				6A60C80B27EF5C4000DFC292 /* LoginReminderViewController.swift in Sources */,
 				6A07E12D27DD66FB002ED268 /* MainTabBarController.swift in Sources */,
+				6AF5D81627EC62E40056D024 /* RecipeDetailRoute.swift in Sources */,
+				6AF5D84F27EE16E10056D024 /* RecipeDetailHeaderView.swift in Sources */,
 				6A07E10627DB391B002ED268 /* WalkthroughViewModel.swift in Sources */,
 				6A07E14627E0CF18002ED268 /* RecipesViewController.swift in Sources */,
 				6A07E14527E0CF18002ED268 /* RecipesRouter.swift in Sources */,
+				6A60C80C27EF5C4000DFC292 /* LoginReminderViewModel.swift in Sources */,
+				6AF5D81327EC62CF0056D024 /* RecipeDetailViewController.swift in Sources */,
 				6A13E2A427D6496800AC93F0 /* Transition.swift in Sources */,
 				6A13E2A227D6493200AC93F0 /* ModalTransition.swift in Sources */,
 				6A07E12127DD564A002ED268 /* HomeRouter.swift in Sources */,
@@ -675,14 +746,19 @@
 				6A13E2BD27D65CDB00AC93F0 /* AppRouter.swift in Sources */,
 				6A07E13027DD67BA002ED268 /* MainTabBarRoute.swift in Sources */,
 				6A07E12227DD564A002ED268 /* HomeViewController.swift in Sources */,
+				6A60C81327EFC9BD00DFC292 /* PhotoDelegate.swift in Sources */,
 				6A07E0FA27DB35E2002ED268 /* WalkthroughRoute.swift in Sources */,
 				6A13E2A027D648FE00AC93F0 /* PushTransition.swift in Sources */,
 				6A07E16A27E20600002ED268 /* APIRequestInterceptor.swift in Sources */,
 				6AA5F6C427D62A11004B6DE7 /* AppDelegate.swift in Sources */,
 				6A07E12527DD56A3002ED268 /* HomeRoute.swift in Sources */,
 				6A13E2A627D649B000AC93F0 /* PlaceOnWindowTransition.swift in Sources */,
+				6AF5D84D27EE16000056D024 /* SKPhotoBrowserRoute.swift in Sources */,
 				6AFE7CB527EB2A8C003E13CC /* FavoritesViewController.swift in Sources */,
+				6A60C80A27EF5C4000DFC292 /* LoginReminderRouter.swift in Sources */,
 				6AFE7CB427EB2A8C003E13CC /* FavoritesRouter.swift in Sources */,
+				6AF5D81227EC62CF0056D024 /* RecipeDetailRouter.swift in Sources */,
+				6AF5D81427EC62CF0056D024 /* RecipeDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

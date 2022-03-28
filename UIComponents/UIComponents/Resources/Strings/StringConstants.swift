@@ -23,11 +23,48 @@ public enum L10n {
     public static let segmentControlType2 = L10n.tr("Localizable", "Home.SegmentControlType2")
   }
 
+  public enum LoginPopUp {
+    /// Cancel
+    public static let cancel = L10n.tr("Localizable", "LoginPopUp.cancel")
+    /// Login
+    public static let login = L10n.tr("Localizable", "LoginPopUp.login")
+    /// Login Required.
+    public static let warning = L10n.tr("Localizable", "LoginPopUp.warning")
+  }
+
+  public enum RecipeDetail {
+    /// Add Comment
+    public static let addComment = L10n.tr("Localizable", "RecipeDetail.addComment")
+    /// Comment
+    public static let comment = L10n.tr("Localizable", "RecipeDetail.comment")
+    /// Comments
+    public static let commentsTitle = L10n.tr("Localizable", "RecipeDetail.commentsTitle")
+    /// Construction
+    public static let construction = L10n.tr("Localizable", "RecipeDetail.construction")
+    /// Followers
+    public static let followers = L10n.tr("Localizable", "RecipeDetail.followers")
+    /// Like
+    public static let like = L10n.tr("Localizable", "RecipeDetail.like")
+    /// Materials
+    public static let materials = L10n.tr("Localizable", "RecipeDetail.materials")
+    /// No Comment
+    public static let noComment = L10n.tr("Localizable", "RecipeDetail.noComment")
+    /// Recipe
+    public static let recipe = L10n.tr("Localizable", "RecipeDetail.recipe")
+  }
+
   public enum UserInfo {
     /// Follow
     public static let follow = L10n.tr("Localizable", "UserInfo.follow")
     /// Following
     public static let following = L10n.tr("Localizable", "UserInfo.following")
+  }
+
+  public enum UserView {
+    /// Follow
+    public static let follow = L10n.tr("Localizable", "UserView.follow")
+    /// Following
+    public static let following = L10n.tr("Localizable", "UserView.following")
   }
 
   public enum WalkThrough {

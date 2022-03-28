@@ -29,6 +29,28 @@
 // MARK: - FavoriteCell
 "FavoriteCell.button" = "See All";
 
+// MARK: - RecipeDetail
+"RecipeDetail.commentsTitle" = "Comments";
+"RecipeDetail.comment" = "Comment";
+"RecipeDetail.like" = "Like";
+"RecipeDetail.materials" = "Materials";
+"RecipeDetail.construction" = "Construction";
+"RecipeDetail.addComment" = "Add Comment";
+"RecipeDetail.noComment" = "No Comment";
+"RecipeDetail.recipe" = "Recipe";
+"RecipeDetail.followers" = "Followers";
+
+// MARK: - RecipeDetailUserView
+"UserView.following" = "Following";
+"UserView.follow" = "Follow";
+
+// MARK: - LoginPopUp
+"LoginPopUp.warning" = "Login Required.";
+"LoginPopUp.login" = "Login";
+"LoginPopUp.cancel" = "Cancel";
+
+
+
 
 
 
