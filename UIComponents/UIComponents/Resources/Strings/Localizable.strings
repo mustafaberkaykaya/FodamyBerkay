@@ -49,6 +49,28 @@
 "LoginPopUp.login" = "Login";
 "LoginPopUp.cancel" = "Cancel";
 
+// MARK: - Login
+"Login.title" = "Login";
+"Login.username" = "Username";
+"Login.password" = "Password";
+"Login.button" = "Login";
+"Login.forgot" = "Forgot your password?";
+"Login.register" = "Sign Up";
+"Login.bottomLabel" = "Don't have an account?";
+
+// MARK: - SignUp
+"SignUp.title" = "Sign Up";
+"SignUp.username" = "Username";
+"SignUp.email" = "E-mail";
+"SignUp.password" = "Password";
+"SignUp.button" = "Sign Up";
+"SignUp.loginButton" = "Login";
+"SignUp.bottomLabel" = "Do you have an account?";
+
+// MARK: - ForgotPassword
+"ForgotPassword.title" = "Reset Password";
+"ForgotPassword.email" = "E-Mail";
+"ForgotPassword.button" = "Forgot Password";
 
 
 

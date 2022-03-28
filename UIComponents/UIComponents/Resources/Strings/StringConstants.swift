@@ -16,11 +16,37 @@ public enum L10n {
     public static let button = L10n.tr("Localizable", "FavoriteCell.button")
   }
 
+  public enum ForgotPassword {
+    /// Forgot Password
+    public static let button = L10n.tr("Localizable", "ForgotPassword.button")
+    /// E-Mail
+    public static let email = L10n.tr("Localizable", "ForgotPassword.email")
+    /// Reset Password
+    public static let title = L10n.tr("Localizable", "ForgotPassword.title")
+  }
+
   public enum Home {
     /// Editor's Choice
     public static let segmentControlType1 = L10n.tr("Localizable", "Home.SegmentControlType1")
     /// Recently Added
     public static let segmentControlType2 = L10n.tr("Localizable", "Home.SegmentControlType2")
+  }
+
+  public enum Login {
+    /// Don't have an account?
+    public static let bottomLabel = L10n.tr("Localizable", "Login.bottomLabel")
+    /// Login
+    public static let button = L10n.tr("Localizable", "Login.button")
+    /// Forgot your password?
+    public static let forgot = L10n.tr("Localizable", "Login.forgot")
+    /// Password
+    public static let password = L10n.tr("Localizable", "Login.password")
+    /// Sign Up
+    public static let register = L10n.tr("Localizable", "Login.register")
+    /// Login
+    public static let title = L10n.tr("Localizable", "Login.title")
+    /// Username
+    public static let username = L10n.tr("Localizable", "Login.username")
   }
 
   public enum LoginPopUp {
@@ -51,6 +77,23 @@ public enum L10n {
     public static let noComment = L10n.tr("Localizable", "RecipeDetail.noComment")
     /// Recipe
     public static let recipe = L10n.tr("Localizable", "RecipeDetail.recipe")
+  }
+
+  public enum SignUp {
+    /// Do you have an account?
+    public static let bottomLabel = L10n.tr("Localizable", "SignUp.bottomLabel")
+    /// Sign Up
+    public static let button = L10n.tr("Localizable", "SignUp.button")
+    /// E-mail
+    public static let email = L10n.tr("Localizable", "SignUp.email")
+    /// Login
+    public static let loginButton = L10n.tr("Localizable", "SignUp.loginButton")
+    /// Password
+    public static let password = L10n.tr("Localizable", "SignUp.password")
+    /// Sign Up
+    public static let title = L10n.tr("Localizable", "SignUp.title")
+    /// Username
+    public static let username = L10n.tr("Localizable", "SignUp.username")
   }
 
   public enum UserInfo {
