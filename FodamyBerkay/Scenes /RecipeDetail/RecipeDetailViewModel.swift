@@ -38,6 +38,9 @@ protocol RecipeDetailViewProtocol: RecipeDetailViewDataSource, RecipeDetailViewE
     func getRecipeDetail()
     func getRecipeDetailComments()
     func likeButtonTapped()
+    func commentButtonTapped()
+    func followButtonTapped()
+   
 }
 
 final class RecipeDetailViewModel: BaseViewModel<RecipeDetailRouter>, RecipeDetailViewProtocol {
@@ -97,7 +100,29 @@ extension RecipeDetailViewModel {
             })
             return
         }
-        print("beğenme isteği yollanıyor")
+        likeRequest()
+    }
+    
+    func followButtonTapped() {
+        guard keychain.get(Keychain.token) != nil else {
+            router.pushLoginReminder(loginHandler: { [weak self] in
+                self?.router.presentLogin()
+            })
+            return
+        }
+        
+        switch isFollowing {
+        case true:
+            router.presentUnfollowAlertView {
+                self.userFollowRequest(followType: .unfollow)
+            }
+        case false:
+            userFollowRequest(followType: .follow)
+        }
+    }
+    
+    func commentButtonTapped() {
+        print("geçiş yap")
     }
 }
 
@@ -127,6 +152,43 @@ extension RecipeDetailViewModel {
                 self.reloadDetailData?()
             case .failure(let error ):
                 print(error.localizedDescription)
+            }
+        }
+    }
+    
+    private func likeRequest() {
+        let request: LikeRequest
+        switch isLiked {
+        case true:
+            request = LikeRequest(recipeId: recipeId, likeType: .unlike)
+        case false:
+            request = LikeRequest(recipeId: recipeId, likeType: .like)
+        }
+        toggleIsLiked?()
+        dataProvider.request(for: request) { [weak self] (result) in
+            guard let self = self else { return }
+            switch result {
+            case .success(let response):
+                print(response.message)
+            case .failure(let error):
+                print(error.localizedDescription)
+                self.toggleIsLiked?()
+            }
+        }
+    }
+    
+    private func userFollowRequest(followType: FollowRequest.FollowType) {
+        guard let followedId = followedId else { return }
+        toggleIsFollowing?()
+        let request = FollowRequest(followedId: followedId, followType: followType)
+        dataProvider.request(for: request) { [weak self] (result) in
+            guard let self = self else { return }
+            switch result {
+            case .success(let response):
+                print(response.message)
+            case .failure(let error):
+                print(error.localizedDescription)
+                self.toggleIsFollowing?()
             }
         }
     }

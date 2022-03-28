@@ -77,6 +77,36 @@ final class RecipeDetailViewController: BaseViewController<RecipeDetailViewModel
         viewModel.reloadCommentData = { [weak self] in
             self?.commentsCollectionView.reloadData()
         }
+        
+        viewModel.toggleIsLiked = { [weak self] in
+            guard let self = self else { return }
+            self.viewModel.isLiked.toggle()
+            
+            let isLiked = self.viewModel.isLiked
+            if isLiked {
+                self.likeCountView.iconColor = .appRed
+                self.viewModel.likeCount? += 1
+                self.likeCountView.count = self.viewModel.likeCount
+            } else {
+                self.likeCountView.iconColor = .appCinder
+                self.viewModel.likeCount? -= 1
+                self.likeCountView.count = self.viewModel.likeCount
+            }
+        }
+        viewModel.toggleIsFollowing = { [weak self] in
+            guard let self = self else { return }
+            self.userView.isFollowing.toggle()
+            self.viewModel.isFollowing.toggle()
+            
+            let isFollowing = self.viewModel.isFollowing
+            if isFollowing {
+                self.viewModel.userFollowedCount? += 1
+            } else {
+                self.viewModel.userFollowedCount? -= 1
+            }
+            
+            self.userView.recipeAndFollowerCountText = self.viewModel.recipeAndFollowerCountText
+        }
     }
 }
 
@@ -166,6 +196,14 @@ extension RecipeDetailViewController {
             guard let self = self else { return }
             self.viewModel.likeButtonTapped()
         }
+        userView.followButtonTapped = { [weak self] in
+            guard let self = self else { return }
+            self.viewModel.followButtonTapped()
+        }
+    }
+    @objc
+    private func commentButtonTapped() {
+        viewModel.commentButtonTapped()
     }
 }
 // MARK: - Configure and Localize
@@ -173,6 +211,7 @@ extension RecipeDetailViewController {
     private func configureContents() {
         commentsCollectionView.delegate = self
         commentsCollectionView.dataSource = self
+        commentButton.addTarget(self, action: #selector(commentButtonTapped), for: .touchUpInside)
     }
     
     private func setLocalize() {
