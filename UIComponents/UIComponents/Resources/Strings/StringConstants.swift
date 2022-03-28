@@ -96,6 +96,13 @@ public enum L10n {
     public static let username = L10n.tr("Localizable", "SignUp.username")
   }
 
+  public enum UnfollowAlert {
+    /// Cancel
+    public static let cancel = L10n.tr("Localizable", "UnfollowAlert.cancel")
+    /// Unfollow
+    public static let unf = L10n.tr("Localizable", "UnfollowAlert.unf")
+  }
+
   public enum UserInfo {
     /// Follow
     public static let follow = L10n.tr("Localizable", "UserInfo.follow")

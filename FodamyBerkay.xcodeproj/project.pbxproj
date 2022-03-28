@@ -63,6 +63,7 @@
 		6ADAEFE127F19FDE00F4BA28 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDE27F19FDE00F4BA28 /* ForgotPasswordViewController.swift */; };
 		6ADAEFE227F19FDE00F4BA28 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFDF27F19FDE00F4BA28 /* ForgotPasswordViewModel.swift */; };
 		6ADAEFE427F19FF000F4BA28 /* ForgotPasswordRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */; };
+		6ADAEFEB27F1FA4900F4BA28 /* UnfollowAlertRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFEA27F1FA4900F4BA28 /* UnfollowAlertRoute.swift */; };
 		6AF5D81227EC62CF0056D024 /* RecipeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */; };
 		6AF5D81327EC62CF0056D024 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */; };
 		6AF5D81427EC62CF0056D024 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */; };
@@ -175,6 +176,7 @@
 		6ADAEFDE27F19FDE00F4BA28 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		6ADAEFDF27F19FDE00F4BA28 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRoute.swift; sourceTree = "<group>"; };
+		6ADAEFEA27F1FA4900F4BA28 /* UnfollowAlertRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfollowAlertRoute.swift; sourceTree = "<group>"; };
 		6AF5D80F27EC62CF0056D024 /* RecipeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailRouter.swift; sourceTree = "<group>"; };
 		6AF5D81027EC62CF0056D024 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		6AF5D81127EC62CF0056D024 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		6A13E29927D6483A00AC93F0 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				6ADAEFE927F1FA0E00F4BA28 /* Routes */,
 				6A13E29C27D6487300AC93F0 /* Core */,
 				6A13E29B27D6485D00AC93F0 /* Transitions */,
 				6A13E29A27D6484800AC93F0 /* Routers */,
@@ -331,7 +334,6 @@
 			isa = PBXGroup;
 			children = (
 				6A13E2BC27D65CDB00AC93F0 /* AppRouter.swift */,
-				6AF5D84C27EE16000056D024 /* SKPhotoBrowserRoute.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -472,6 +474,15 @@
 				6ADAEFE327F19FF000F4BA28 /* ForgotPasswordRoute.swift */,
 			);
 			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		6ADAEFE927F1FA0E00F4BA28 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5D84C27EE16000056D024 /* SKPhotoBrowserRoute.swift */,
+				6ADAEFEA27F1FA4900F4BA28 /* UnfollowAlertRoute.swift */,
+			);
+			path = Routes;
 			sourceTree = "<group>";
 		};
 		6AF5D80E27EC62680056D024 /* RecipeDetail */ = {
@@ -788,6 +799,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADAEFEB27F1FA4900F4BA28 /* UnfollowAlertRoute.swift in Sources */,
 				6A07E14727E0CF18002ED268 /* RecipesViewModel.swift in Sources */,
 				6A60C80E27EF5C5700DFC292 /* LoginReminderRoute.swift in Sources */,
 				6A07E12327DD564A002ED268 /* HomeViewModel.swift in Sources */,

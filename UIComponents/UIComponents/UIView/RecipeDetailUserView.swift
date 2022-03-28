@@ -69,6 +69,8 @@ public class RecipeDetailUserView: UIView {
         }
     }
     
+    public var followButtonTapped: VoidClosure?
+    
     public init(userViewType: UserViewType) {
         self.userViewType = userViewType
         super.init(frame: .zero)
@@ -101,6 +103,7 @@ extension RecipeDetailUserView {
         case .withoutFollowButton:
             textStackView.trailingToSuperview().constant = -15
         }
+        followButton.addTarget(self, action: #selector(followButtonTapped(_:)), for: .touchUpInside)
     }
     
     private func addUserProfileImage() {
@@ -135,4 +138,13 @@ extension RecipeDetailUserView {
         }
     }
 }
+
+// MARK: - Actions
+extension RecipeDetailUserView {
+    @objc
+    private func followButtonTapped(_ sender: Any?) {
+        followButtonTapped?()
+    }
+}
+
 
